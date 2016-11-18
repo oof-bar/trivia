@@ -1,0 +1,11 @@
+title: Names
+pages:
+  template: Name
+  num: zero
+files: false
+deletable: false
+icon: tags
+fields:
+  title:
+    label: Team Names
+    type: title

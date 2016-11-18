@@ -1,0 +1,19 @@
+title: Quizes
+pages:
+  template: 
+    - quiz
+  num:
+    mode: date
+    field: date
+    format: YmdHi
+  sort: date desc
+files: false
+icon: beer
+fields:
+  title:
+    label: Title
+    type:  text
+    help: >
+      Please do not edit.
+
+

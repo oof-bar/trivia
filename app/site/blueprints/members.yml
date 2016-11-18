@@ -1,0 +1,11 @@
+title: Members
+pages:
+  template: Member
+  num: zero
+files: false
+deletable: false
+icon: users
+fields:
+  title:
+    label: Team Members
+    type: title

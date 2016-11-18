@@ -1,0 +1,7 @@
+title: Name
+pages: false
+files: false
+fields:
+  title:
+    label: Team Name
+    type: title

@@ -1,0 +1,69 @@
+title: Quiz
+pages:
+  hide: true
+files:
+  sortable: true
+  fields:
+    title:
+      label: Alt Tag
+      type: text
+    caption:
+      label: Caption
+      type: textarea
+icon: trophy
+fields:
+  title:
+    label: Title
+    type:  text
+
+  date:
+    label: Quiz Date
+    type: date
+    required: true
+    default: now
+
+  team_score:
+    label: Team Score
+    type: number
+    width: 1/2
+
+  high_score:
+    label: Highest Game Score
+    type: number
+    width: 1/2
+
+  place:
+    label: Place
+    type: number
+    width: 1/2
+
+  participating_teams:
+    label: Number of Teams
+    type: number
+    width: 1/2
+
+  team_members:
+    label: Team Members
+    type: checkboxes
+    options: query
+    query:
+      page: members
+    columns: 5
+
+  quiz_master:
+    label: Quiz Master
+    type: select
+    options: query
+    query:
+      page: hosts
+    width: 1/2
+
+  team_name:
+    label: Team Name
+    type: select
+    options: query
+    query:
+      page: names
+    width: 1/2
+
+

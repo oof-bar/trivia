@@ -1,0 +1,7 @@
+title: Host
+pages: false
+files: false
+fields:
+  title:
+    label: Host Name
+    type: title
