@@ -1,0 +1,10 @@
+title: Stats
+pages: true
+files: true
+icon: pie-chart
+fields:
+  title:
+    label: Title
+    type:  text
+    help: >
+      Please do not change.

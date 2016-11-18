@@ -2,7 +2,7 @@ html
   font-size: $type-size-base
 
 body
-  font-family: $type-family-sans
+  font-family: $type-family-text
   font-weight: $type-weight-base
   -webkit-font-smoothing: antialiased
   line-height: $type-leading-base
@@ -14,7 +14,17 @@ h4,
 h5,
 h6
   font: inherit
-  margin-bottom: 0.5rem
+
+h3
+  font-family: $type-family-decorative
+  font-weight: $type-weight-base
+  +all-caps
 
 .data
-  font-size: 5rem
+  font-size: 15rem
+  font-family: $type-family-numbers
+  font-weight: $type-weight-black
+  line-height: 1
+
+p
+  margin-bottom: 1rem

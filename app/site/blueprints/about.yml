@@ -1,0 +1,14 @@
+title: About
+pages: true
+files: true
+icon: book
+fields:
+  title:
+    label: Title
+    type:  text
+    help: >
+      Please do not change.
+
+  about:
+    label: About
+    type: textarea

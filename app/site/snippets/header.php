@@ -7,12 +7,15 @@
 
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
 
+  <script src="https://use.typekit.net/pdn2pqu.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
   <?= css('assets/css/app.css') ?>
   <?= css('@auto') ?>
 
 </head>
 <body class="<?= Help::body_classes() ?>">
   <header>
-    Header
+    <? snippet('menu') ?>
   </header>
   <main>
