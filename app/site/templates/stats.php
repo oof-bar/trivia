@@ -2,6 +2,9 @@
   <section class="stats">
     <div class="wrap">
       <div class="spreadsheet">
+        <div class="scroll">
+          Scroll
+        </div>
         <table>
           <tr class="header">
             <th>Date</th>
@@ -19,10 +22,10 @@
               <td><?= $quiz->team_score() ?></td>
               <td><?= $quiz->place() ?></td>
               <td><?= $quiz->participating_teams() ?></td>
-              <td><?= $quiz->team_members() ?></td>
+              <td><?= count($quiz->team_members()->split()) ?></td>
               <td><?= $quiz->location() ?></td>
-              <td><?= $quiz->quiz_master() ?></td>
-              <td><?= $quiz->team_name() ?></td>
+              <td><?= $quiz->quiz_master()->toPage()->title() ?></td>
+              <td><?= $quiz->team_name()->toPage()->title() ?></td>
             </tr>
           <? } ?>
         </table>

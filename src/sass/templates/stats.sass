@@ -1,1 +1,25 @@
-section.spreadsheet
+section.stats
+  +tablet
+    padding-top: 3rem
+
+  .scroll
+    display: none
+
+    &::before
+      content: '←'
+
+    &::after
+      content: '→'
+
+    +tablet
+      display: block
+      position: fixed
+      top: 1rem
+      left: 3rem
+      font-family: $type-family-decorative
+      font-size: $type-size-small
+      +all-caps
+
+    +mobile
+      left: 1rem
+

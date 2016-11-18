@@ -7,15 +7,29 @@ header
   width: 100%
   text-align: center
 
+  +mobile
+    border: none
+
 section.menu
   padding: 1rem 0
   font-family: $type-family-decorative
   +all-caps
 
+  +mobile
+    padding: 0
+
   li
     display: inline-block
+
+    +mobile
+      display: block
+      border-top: 1px solid $color-white
 
   a
     margin: 0 0.5rem
     text-decoration: none
+
+    +mobile
+      padding: 0.5rem 0
+      display: block
 

@@ -1,5 +1,16 @@
 section.dashboard
+  .title
+    text-align: center
+    margin-bottom: 3rem
+
   .stat
     +span-columns(4)
     +omega(3)
     text-align: center
+
+    +tablet
+      +span-columns(6)
+      +omega(2)
+
+    +mobile
+      +span-columns(12)
