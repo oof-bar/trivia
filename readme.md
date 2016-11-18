@@ -1,8 +1,6 @@
-# Kirby Plainkit
+# Trivia!
 
-> Not so plain, really. This is a great place to start if you like Sass & CoffeeScript.
-
-## How to use the Plainkit
+> We play trivia every week with our studio. Here's how we're keeping track of our stats.
 
 Please refer to [the Wiki](https://github.com/AugustMiller/plainkit/wiki) for instructions on getting started with the Plainkit.
 
