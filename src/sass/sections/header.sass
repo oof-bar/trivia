@@ -1,35 +1,24 @@
-header
-  position: fixed
-  bottom: 0
-  left: 0
-  background-color: $color-black
-  border-top: 1px solid $color-white
-  width: 100%
-  text-align: center
-
-  +mobile
-    border: none
-
 section.menu
-  padding: 1rem 0
   font-family: $type-family-decorative
+  text-align: center
+  padding: 0
   +all-caps
 
-  +mobile
-    padding: 0
+  .wrap
+    max-width: none
+    width: 100%
+    display: table
+    table-layout: fixed
 
-  li
-    display: inline-block
+  .nav
+    display: table-row
 
-    +mobile
-      display: block
-      border-top: 1px solid $color-white
-
-  a
-    margin: 0 0.5rem
+  .tab
     text-decoration: none
+    display: table-cell
+    padding: 1rem
 
-    +mobile
-      padding: 0.5rem 0
-      display: block
+    &:hover
+      background-color: $color-white
+      color: $color-black
 
