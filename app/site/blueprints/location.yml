@@ -1,0 +1,7 @@
+title: Location
+pages: false
+files: false
+fields:
+  title:
+    label: Pub Location
+    type: title

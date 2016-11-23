@@ -1,0 +1,11 @@
+title: Locations
+pages:
+  template: location
+  num: zero
+files: false
+deletable: false
+icon: location-arrow
+fields:
+  title:
+    label: Pub Locations
+    type: title

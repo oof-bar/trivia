@@ -23,7 +23,7 @@
               <td><?= $quiz->place() ?></td>
               <td><?= $quiz->participating_teams() ?></td>
               <td><?= count($quiz->team_members()->split()) ?></td>
-              <td><?= $quiz->location() ?></td>
+              <td><?= $quiz->location()->toPage()->title() ?></td>
               <td><?= $quiz->quiz_master()->toPage()->title() ?></td>
               <td><?= $quiz->team_name()->toPage()->title() ?></td>
             </tr>

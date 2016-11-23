@@ -8,6 +8,7 @@ pages:
     - members
     - hosts
     - names
+    - locations
 files: true
 fields:
   title:
