@@ -19,6 +19,18 @@
     return f::read($file);
   }
 
+  # Responsive SVGs
+  public static function inline_svg ($filename, $dimensions) {
+    list($x, $y) = $dimensions;
+    $ratio = ($y / $x) * 100;
+    $spacer = html::tag('div', '', array(
+      'style' => "padding-top: {$ratio}%"
+    ));
+    return html::tag('div', static::inline_asset('images', $filename) . $spacer, array(
+      'class' => 'responsive-svg'
+    ));
+  }
+
   # Resizer
   public static function resize ($image, $size = false) {
     switch ($size) {
