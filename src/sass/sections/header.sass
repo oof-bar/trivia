@@ -4,6 +4,7 @@ section.menu
   padding: 0
   +all-caps
 
+
   .wrap
     max-width: none
     width: 100%
@@ -17,20 +18,41 @@ section.menu
     display: table-cell
     text-decoration: none
     padding: 1rem
+    background-color: $color-white
+    color: $color-black
+    border-right: 2px solid $color-black
+
+    &:last-of-type
+      border-right: none
+
+    +tablet
+      +span-columns(6)
+      +omega(2)
+      margin: 0
+      width: 50%
+      text-align: left
+      border-bottom: 2px solid $color-black
+
+      &:nth-of-type(2)
+        border-right: none
+
+    +mobile
+      +span-columns(12)
+      border-right: none
 
     &:hover
-      background-color: $color-white
-      color: $color-black
+      background-color: $color-black
+      color: $color-white
 
       svg
-        fill: $color-black
+        fill: $color-white
 
     &.active
-      background-color: $color-white
-      color: $color-black
+      background-color: $color-black
+      color: $color-white
 
       svg
-        fill: $color-black
+        fill: $color-white
 
   .icon
     width: 1.25rem
@@ -41,5 +63,5 @@ section.menu
     margin-top: -5px
 
     svg
-      fill: $color-white
+      fill: $color-black
 
