@@ -1,19 +1,27 @@
 section.dashboard
+  padding: 0
+
+  .wrap
+    margin: 0
+    max-width: none
+
+  .stats
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    align-items: stretch
+    height: calc(100vh - 5rem)
+
   .stat
-    +span-columns(4)
-    +omega(3)
+    flex-grow: 1
+    width: (80% / 3)
     text-align: center
-    margin-bottom: 3rem
-
-    +tablet
-      +span-columns(6)
-      +omega(2)
-
-    +mobile
-      +span-columns(12)
+    align-self: center
+    margin: 0 10px
 
   .data
-    font-size: 15rem
+    font-size: 35vm
+    font-size: 35vmin
     font-family: $type-family-numbers
     font-weight: $type-weight-black
     line-height: 0.8
