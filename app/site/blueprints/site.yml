@@ -9,6 +9,7 @@ pages:
     - hosts
     - names
     - locations
+    - charts
 files: true
 fields:
   title:

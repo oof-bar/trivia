@@ -9,6 +9,7 @@ pages:
   sort: date desc
 files: false
 icon: beer
+deletable: false
 fields:
   title:
     label: Title

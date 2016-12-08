@@ -3,8 +3,8 @@ pages:
   template: Name
   num: zero
 files: false
-deletable: false
 icon: tags
+deletable: false
 fields:
   title:
     label: Team Names

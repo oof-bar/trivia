@@ -2,6 +2,7 @@ title: Stats
 pages: true
 files: true
 icon: pie-chart
+deletable: false
 fields:
   title:
     label: Title

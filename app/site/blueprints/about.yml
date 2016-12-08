@@ -2,6 +2,7 @@ title: About
 pages: true
 files: true
 icon: book
+deletable: false
 fields:
   title:
     label: Title

@@ -1,0 +1,12 @@
+title: Charts
+pages: false
+files: false
+icon: bar-chart
+deletable: false
+fields:
+  title:
+    label: Charts
+    type: text
+  text:
+    label: Text
+    type: textarea

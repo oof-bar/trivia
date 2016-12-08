@@ -3,8 +3,8 @@ pages:
   template: location
   num: zero
 files: false
-deletable: false
 icon: location-arrow
+deletable: false
 fields:
   title:
     label: Pub Locations
