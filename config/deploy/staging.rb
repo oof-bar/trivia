@@ -7,8 +7,10 @@
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-set :app_domain, 'trivia.we-need-a-domain.com'
+set :app_domain, 'trivia.samepagestudio.com'
 server fetch(:app_domain), user: 'deploy', roles: ['web']
+
+set :deploy_to, '/var/www/oof/trivia.samepagestudio.com'
 
 
 
