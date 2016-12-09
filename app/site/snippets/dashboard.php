@@ -14,7 +14,7 @@
         <h3>Times in Top 3</h3>
       </div>
       <div class="stat">
-        <div class="data">1</div>
+        <div class="data"><?= page('quizzes')->missed()->int() ?></div>
         <h3>Weeks Missed</h3>
       </div>
       <div class="stat">

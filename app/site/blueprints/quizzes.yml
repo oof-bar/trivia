@@ -16,5 +16,9 @@ fields:
     type:  text
     help: >
       Please do not edit.
-
-
+  missed:
+    label: Missed Quizzes
+    type: number
+    required: true
+    help: >
+      Adjust this based on the number of quizzes (or weeks) that we've missed.
