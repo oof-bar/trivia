@@ -1,5 +1,5 @@
 <? return function ($site, $pages, $page) {
   return [
-    'quizzes' => page('quizzes')->children()->visible()
+    'quizzes' => Help::all_quizzes()->flip()
   ];
 };
